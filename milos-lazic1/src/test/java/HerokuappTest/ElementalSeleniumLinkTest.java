@@ -17,7 +17,7 @@ public class ElementalSeleniumLinkTest extends BaseTest {
         loginPageHerokuapp = new LoginPageHerokuapp();
     }
     @Test
-    public void ElementalSeleniumLinkTest(){
+    public void elementalSeleniumLinkClickTest(){
 loginPageHerokuapp.seleniumLinkClick();
 loginPageHerokuapp.switchToNewTab(tabNumber, tab);
         Assert.assertEquals(url, driver.getCurrentUrl());
