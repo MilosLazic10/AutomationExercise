@@ -23,7 +23,7 @@ public class WrongPasswordTest extends BaseTest {
         sharedMehods=new SharedMethods();
     }
     @Test
-    public void wrongUserNameTest() {
+    public void wrongPasswordTest() {
         loginPageHerokuapp.userNameInputFieldSendKeys("tomsmith");
         loginPageHerokuapp.passwordInputFieldSendKeys("SuperSecretPassword");
         loginPageHerokuapp.loginButtonClick();
