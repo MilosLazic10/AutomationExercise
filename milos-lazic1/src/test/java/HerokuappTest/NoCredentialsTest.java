@@ -17,7 +17,7 @@ public class NoCredentialsTest extends BaseTest {
         sharedMehods=new SharedMethods();
     }
     @Test
-    public void noCredentialsTest(){
+    public void noCredentialsLoginTest(){
         loginPageHerokuapp.loginButtonClick();
         assertTrue(sharedMehods.loginMessageIsDisplayed());
         assertEquals("Your username is invalid!\n" +
